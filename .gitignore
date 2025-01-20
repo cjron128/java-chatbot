@@ -1,0 +1,41 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+mvnw
+mvnw.cmd
+pom.xml.versionsBackup
+pom.xml.releaseBackup
+
+# Logs
+*.log
+
+# IDE Files
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Configuration Files
+*.properties
+*.config
+*.yaml
+
+# Temporary Files
+*.tmp
+*.bak
+*.swp
+
+# Output Files
+*.class
+*.jar
+*.war
+*.ear
+
+# Environment Variables
+.env
