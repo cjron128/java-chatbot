@@ -8,8 +8,6 @@ An AI-powered chatbot built using Java, Maven, and OpenAI API.
 ## Prerequisites
 1. **Java Development Kit (JDK):** Version 11 or later.
 2. **Apache Maven:** Dependency management.
-3. **PostgreSQL:** Database for storing conversation logs.
-4. **AWS CLI:** For Lambda integration.
 
 ## Setup
 1. Clone the repository:
