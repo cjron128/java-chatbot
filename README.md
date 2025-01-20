@@ -13,7 +13,8 @@ An AI-powered chatbot built using Java, Maven, and OpenAI API.
 1. Clone the repository:
    git clone <repository-url>
    cd <project-directory>
-2. Update main/resources/config.properties with your OpenAI API Key
+2. Create a file in main/resources and name it config.properties 
+3. Add OPENAI_API_KEY= to config.properties with your OpenAI Key
 
 ## Running the Project
 1. Build the Project:
