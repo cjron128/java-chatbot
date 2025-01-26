@@ -50,8 +50,10 @@ An AI-powered chatbot built using Java, Maven, and OpenAI API.
 
 ## Setup
 1. Clone the repository:
+   ```
    git clone <repository-url>
    cd <project-directory>
+   ```
 
 ## Update Configuration
 Add your OpenAI API key and database credentials to config.properties in src/main/resources:
@@ -64,10 +66,13 @@ Add your OpenAI API key and database credentials to config.properties in src/mai
 
 ## Running the Project
 1. Build the Project:
+   ```
    mvn clean install
-2. Run the Application:
+3. Run the Application:
+   ```
    mvn exec:java
-3. View the Conversation Log:
+5. View the Conversation Log:
+   ```
    tail -f conversation.log
 
 ## Testing - to be added
