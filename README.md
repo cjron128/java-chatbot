@@ -55,10 +55,12 @@ An AI-powered chatbot built using Java, Maven, and OpenAI API.
 
 ## Update Configuration
 Add your OpenAI API key and database credentials to config.properties in src/main/resources:
+  ```
    OPENAI_API_KEY=your_openai_api_key
    DB_URL=jdbc:postgresql://localhost:5432/chatbot
    DB_USER=chatbot_user
    DB_PASSWORD=yourpassword
+  ```
 
 ## Running the Project
 1. Build the Project:
