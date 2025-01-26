@@ -68,18 +68,22 @@ Add your OpenAI API key and database credentials to config.properties in src/mai
 1. Build the Project:
    ```
    mvn clean install
+   ```
 3. Run the Application:
    ```
    mvn exec:java
+   ```
 5. View the Conversation Log:
    ```
    tail -f conversation.log
+   ```
 
 ## Testing - to be added
 1. Unit Tests:
    ```
    mvn test
-
+   ```
+   
 ## Project Structure
 - Main.java: Entry point for the application.
 - AIService.java: Handles AI API interactions.
