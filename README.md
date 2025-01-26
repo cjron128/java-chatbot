@@ -9,8 +9,8 @@ An AI-powered chatbot built using Java, Maven, and OpenAI API.
 - **Interactive Logs:** Outputs the conversation to a separate terminal in real-time for clarity.
 - **Scalable Architecture:** Easily extendable and configurable to support advanced features.
 - **Database-Backed Commands:**
-  - reset: Resets the current conversation and starts a new one.
-  - wipe: Deletes all conversation history from the database.
+  - `reset`: Resets the current conversation and starts a new one.
+  - `wipe`: Deletes all conversation history from the database.
 
 ## Prerequisites
 1. **Java Development Kit (JDK):** Version 11 or later.
@@ -77,6 +77,7 @@ Add your OpenAI API key and database credentials to config.properties in src/mai
 
 ## Testing - to be added
 1. Unit Tests:
+   ```
    mvn test
 
 ## Project Structure
